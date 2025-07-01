@@ -1,0 +1,117 @@
+*{
+    background-color: rgb(49, 49, 49);
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+}
+/* nav bar */
+.nav{
+    width: 100%;
+    height: 90px;
+    background-color: rgb(172, 133, 7);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*nav title*/
+.nav a{
+    text-decoration: none;
+    background-color: transparent;
+}
+.nav a h2 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+}
+.nav a p{
+    color: white;
+    padding-left: 30px;
+    padding-top: 6px;  
+    background-color: transparent;  
+}
+/*nav links code*/
+.nav-link {
+    padding-right: 40px;
+    background-color: transparent;
+}
+.nav-link a {
+    padding-right: 20px;
+    color:aliceblue;
+    font-size: 20px;
+}
+.nav-link a span{
+    font-size: 18px;
+    background-color: transparent;
+    color: white;
+}
+/*nav links code with hover code*/
+.nav-link :hover{
+    text-decoration: underline;
+}
+/*Content Part*/
+.header-part{
+    margin-top: 30px;
+    margin-left: 40%;
+    padding: 20px;
+}
+/* upload image*/
+.add{
+    padding: 4px;
+    padding-bottom: 20px;
+}
+/* add image*/
+#addimage{
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+/*Titile Card*/
+#Title-card{
+    width: 30%;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 10px ;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(88, 88, 88);
+}
+
+.header-part h5{
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+textarea{
+    margin-top: 10px;
+    width: 50%;
+    height: 140px;
+    border: 3px solid black;
+    text-align: start;
+    font-size: 20px;
+    padding-left: 4px;
+    outline: none;
+    background-color: rgb(88, 88, 88);
+}
+/* Button*/
+button{
+    margin-top: 20px;
+    width: 80px;
+    font-size:16px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+/*postsContainer*/
+#postsContainer{
+    margin-top: 40px;
+    width: 700px;
+    height: 300px;
+    background-color: transparent;
+}
